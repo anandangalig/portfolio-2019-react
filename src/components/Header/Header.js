@@ -1,15 +1,15 @@
 import React from 'react';
-import './Header.scss';
 import MenuDesktop from '../MenuDesktop/MenuDesktop';
 import MenuMobile from '../MenuMobile/MenuMobile';
+import './Header.scss';
 
 const Header = props => {
   return (
     <header className="header">
-      <div id="logo">// Anand Angalig</div>
+      <div class="logo">// Anand Angalig</div>
       <div className="menu">
         <MenuDesktop />
-        <MenuMobile />
+        {/* <MenuMobile /> */}
       </div>
     </header>
   );
