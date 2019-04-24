@@ -18,6 +18,9 @@
     }
     &:hover {
       transform: scale(1.5);
+      path {
+        fill: $yellow;
+      }
     }
   }
   .footer__email {
