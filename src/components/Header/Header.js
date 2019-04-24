@@ -6,7 +6,7 @@ import './Header.scss';
 const Header = props => {
   return (
     <header className="header">
-      <div class="logo">// Anand Angalig</div>
+      <div class="logo">//Anand Angalig</div>
       <div className="menu">
         <MenuDesktop />
         {/* <MenuMobile /> */}

@@ -1,0 +1,13 @@
+.menu__desktop {
+  li {
+    display: inline;
+    margin: 20px;
+  }
+  li a {
+    text-decoration: none;
+    color: white;
+    &.active {
+      color: red;
+    }
+  }
+}

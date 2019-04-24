@@ -6,7 +6,7 @@
   align-items: center;
   grid-template-areas: 'header1 header2';
   padding: 0 20px;
-  background-color: $dark_blue;
+  background-color: $purple;
   color: white;
 }
 
@@ -14,20 +14,12 @@
   grid-area: header1;
   justify-self: start;
   font: {
-    family: 'Yellowtail', cursive;
+    family: $yellowtail;
     size: 3em;
-    weight: bold;
   }
 }
 
 .menu {
   grid-area: header2;
   justify-self: end;
-  li {
-    display: inline;
-    margin: 20px;
-  }
-  li a {
-    text-decoration: none;
-  }
 }

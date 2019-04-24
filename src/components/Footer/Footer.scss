@@ -2,7 +2,7 @@
 
 .footer {
   grid-area: footer;
-  background-color: $grey;
+  background-color: $purple;
   text-align: center;
   padding: 1em;
   ul {
@@ -12,9 +12,17 @@
   li {
     display: inline;
   }
+  svg {
+    path {
+      fill: white;
+    }
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
   .footer__email {
     margin-bottom: 1em;
-    color: $dark_blue;
+    color: white;
     font-weight: bolder;
   }
 }

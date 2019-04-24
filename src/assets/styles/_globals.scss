@@ -3,12 +3,18 @@ $dark_blue: #161855;
 $dark_grey: #eaeaea;
 $grey: #f8f8f8;
 
+$green: #ccf381;
+$blue: #4831d4;
+
+$purple: #3c1a5b;
+$yellow: #fff748;
+
 // fonts:
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One|Open+Sans|Yellowtail');
-// font-family: 'Julius Sans One', sans-serif;
-// font-family: 'Archivo Narrow', sans-serif;
-// font-family: 'Yellowtail', cursive;
-// font-family: 'Open Sans', sans-serif;
+$julius: 'Julius Sans One', sans-serif;
+$archivo: 'Archivo Narrow', sans-serif;
+$yellowtail: 'Yellowtail', cursive;
+$open_sans: 'Open Sans', sans-serif;
 
 // general:
 body {
@@ -16,6 +22,6 @@ body {
   margin: 0;
   font: {
     size: 16px;
-    family: 'Open Sans', sans-serif;
+    family: $open_sans;
   }
 }

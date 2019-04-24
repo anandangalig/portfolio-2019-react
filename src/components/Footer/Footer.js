@@ -8,17 +8,17 @@ const Footer = props => {
       <ul className="footer__social-links">
         <li>
           <a href="#">
-            <i class="fab fa-linkedin fa-3x fa-fw" style={{ color: '#161855' }} />
+            <i class="fab fa-linkedin fa-2x fa-fw" />
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fab fa-twitter-square fa-3x fa-fw" style={{ color: '#161855' }} />
+            <i class="fab fa-twitter-square fa-2x fa-fw" />
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fab fa-github-square fa-3x fa-fw" style={{ color: '#161855' }} />
+            <i class="fab fa-github-square fa-2x fa-fw" />
           </a>
         </li>
       </ul>
