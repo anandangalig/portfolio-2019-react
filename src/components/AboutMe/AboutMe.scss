@@ -1,0 +1,34 @@
+@import '../../assets/styles/_globals.scss';
+
+.about span {
+  font-family: $julius;
+  font-size: 2em;
+  color: $dark_blue;
+}
+
+.about_container {
+  display: grid;
+  grid-template-areas:
+    'blurb1 . blurb2'
+    'toolbox . misc';
+}
+
+.about_blurb--image {
+  img {
+    width: 30%;
+    height: auto;
+  }
+}
+.about_blurb--image {
+  grid-area: blurb1;
+}
+.about_blurb--text {
+  grid-area: blurb2;
+}
+.about_tools {
+  grid-area: toolbox;
+}
+
+.about_misc {
+  grid-area: misc;
+}

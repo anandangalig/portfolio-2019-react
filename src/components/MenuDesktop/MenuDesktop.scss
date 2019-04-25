@@ -14,5 +14,6 @@
     &:hover {
       border-bottom: 3px solid $yellow;
     }
+    transition: border-bottom 0.2s;
   }
 }

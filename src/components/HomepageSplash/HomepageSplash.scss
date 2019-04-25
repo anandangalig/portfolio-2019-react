@@ -1,0 +1,22 @@
+@import '../../assets/styles/_globals.scss';
+.splash__text {
+  color: grey;
+  font-style: italic;
+  padding: 2em;
+}
+.splash__item span {
+  font-family: $julius;
+  color: $dark_blue;
+  font-size: 4em;
+  font-style: normal;
+}
+.splash__braces {
+  font-family: $julius;
+  color: $dark_blue;
+  font-style: italic;
+  font-size: 5em;
+  font-weight: bolder;
+}
+.splash__item {
+  margin-left: 10%;
+}
