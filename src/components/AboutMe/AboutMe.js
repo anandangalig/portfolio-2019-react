@@ -4,18 +4,15 @@ import image from '../../assets/images/yellowstone2018.jpg';
 
 const AboutMe = props => {
   return (
-    <div className="about_container">
-      <div className="about_blurb--image">
-        <img src={image} />
-      </div>
+    <div className="about about_container">
+      <img className="about about_blurb--image" src={image} />
+
       <div className="about about_blurb--text">
-        <span>Blurb</span>
-        <p>Hello, I’m Anand. </p>
+        <span>Hey, I’m Anand.</span>
         <p>I’m a Philly based web developer currently specializing in JavaScript and React.</p>
         <p>
           I believe in lifelong learning, both in my personal and professional life. Recently
-          decided to learn how to play guitar. It’s not going so well, but the key is to continue
-          practicing, right?
+          decided to learn how to play guitar. It’s not going so well...
         </p>
         <p>
           At work, I bring professionalism and positive attitude. At home, I make chicken
@@ -26,24 +23,27 @@ const AboutMe = props => {
       <div className="about about_tools">
         <span>Toolbox</span>
         <ul>
-          <li> JavaScript/ES6</li>
-          <li> React + Redux</li>
-          <li> D3.js</li>
-          <li> CSS/Sass</li>
-          <li> PHP</li>
-          <li> Drupal, WordPress</li>
-          <li> Linux environment</li>
-          <li> MySQL</li>
+          <li>JavaScript/ES6</li>
+          <li>React + Redux</li>
+          <li>D3.js</li>
+          <li>CSS/Sass</li>
+          <li>PHP</li>
+          <li>Drupal, WordPress</li>
+          <li>Linux environment</li>
+          <li>MySQL</li>
         </ul>
       </div>
       <div className="about about_misc">
         <span>Misc.</span>
-        <li> Was born in Ulaanbaatar, Mongolia</li>
-        <li> Sixers fan</li>
-        <li> Can train you in Muay Thai</li>
-        <li> Pro sushi chef</li>
-        <li> Terrible singer</li>
-        <li> Proficient in Russian</li>
+        <ul>
+          <li>Was born in Mongolia</li>
+          <li>76'ers fan</li>
+          <li>Can train you in Muay Thai</li>
+          <li>Partied with "Big Lebowski" one time</li>
+          <li>Pro sushi chef</li>
+          <li>Terrible singer</li>
+          <li>Proficient in Russian</li>
+        </ul>
       </div>
     </div>
   );
