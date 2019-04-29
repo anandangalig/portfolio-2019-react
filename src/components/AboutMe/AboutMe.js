@@ -1,11 +1,10 @@
 import React from 'react';
 import './AboutMe.scss';
-import image from '../../assets/images/yellowstone2018.jpg';
 
 const AboutMe = props => {
   return (
     <div className="about about_container">
-      <img className="about about_blurb--image" src={image} />
+      <img className="about about_blurb--image" src="/images/yellowstone2018.jpg" />
 
       <div className="about about_blurb--text">
         <span>Hey, I’m Anand.</span>

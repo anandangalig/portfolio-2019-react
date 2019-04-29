@@ -1,0 +1,46 @@
+{
+  "watchlist": {
+    "title": "WatchList",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "image": "screenshot_watchlist.png",
+    "link": "https://watchlist-f03db.firebaseapp.com",
+    "link_external": true,
+    "tech_used": ["Ember.js", "JavaScript", "CSS", "HTML", "Email.js", "Firebase CLI", "REST API"],
+    "github_link": "https://github.com/anandangalig/WatchList"
+  },
+  "popcorn": {
+    "title": "Popcorn! According to Steph Curry",
+    "description": "Popcorn ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "image": "screenshot_popcorn.png",
+    "link": "/projects/popcorn",
+    "link_external": false,
+    "tech_used": ["D3.js", "JavaScript/ES6", "CSS", "HTML"],
+    "github_link": "https://github.com/anandangalig/d3-steph-curry-popcorn"
+  },
+  "pomodoro": {
+    "title": "Pomodoro Tool",
+    "description": "Pomodoro ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "image": "screenshot_pomodoro.png",
+    "link": "/pomodoro",
+    "link_external": false,
+    "tech_used": ["React", "JavaScript/ES6", "CSS", "HTML"],
+    "github_link": "https://github.com/anandangalig/pomodoro"
+  },
+  "portfolio": {
+    "title": "Portfolio 2019",
+    "description": "Portfolio 2019 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "image": "screenshot_portfolio.png",
+    "link": "/",
+    "link_external": false,
+    "tech_used": [
+      "React",
+      "React Hooks",
+      "React Router",
+      "Axios",
+      "JavaScript/ES6",
+      "Sass/CSS",
+      "HTML5"
+    ],
+    "github_link": "https://github.com/anandangalig/portfolio-2019-react"
+  }
+}
