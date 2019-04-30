@@ -11,7 +11,7 @@
   }
   ul li::before {
     content: '\25A0';
-    color: $dark_blue;
+    color: dodgerblue;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
@@ -25,7 +25,7 @@
     'toolbox misc';
   grid-column-gap: 40px;
   grid-row-gap: 20px;
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 

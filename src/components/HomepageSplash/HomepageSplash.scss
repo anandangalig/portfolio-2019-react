@@ -2,7 +2,7 @@
 .splash__text {
   color: grey;
   font-style: italic;
-  padding: 2em;
+  margin: 100px 0;
 }
 .splash__item span {
   font-family: $julius;
@@ -19,4 +19,5 @@
 }
 .splash__item {
   margin-left: 10%;
+  width: 100%;
 }

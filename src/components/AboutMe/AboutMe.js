@@ -4,7 +4,11 @@ import './AboutMe.scss';
 const AboutMe = props => {
   return (
     <div className="about about_container">
-      <img className="about about_blurb--image" src="/images/yellowstone2018.jpg" />
+      <img
+        className="about about_blurb--image"
+        src="/images/yellowstone2018.jpg"
+        alt="Anand in Yellowstone, WY"
+      />
 
       <div className="about about_blurb--text">
         <span>Hey, I’m Anand.</span>

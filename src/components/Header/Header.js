@@ -7,14 +7,16 @@ import './Header.scss';
 const Header = props => {
   return (
     <header className="header">
-      <div className="logo">
-        <NavLink exact to="/">
-          <span className="logo__accent">// </span>A. Anand
-        </NavLink>
-      </div>
-      <div className="menu">
-        <MenuDesktop />
-        {/* <MenuMobile /> */}
+      <div className="header__container">
+        <div className="logo">
+          <NavLink exact to="/">
+            <span className="logo__accent">// </span>A. Anand
+          </NavLink>
+        </div>
+        <div className="menu">
+          <MenuDesktop />
+          {/* <MenuMobile /> */}
+        </div>
       </div>
     </header>
   );
