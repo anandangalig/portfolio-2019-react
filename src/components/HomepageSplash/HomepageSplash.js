@@ -4,7 +4,7 @@ import './HomepageSplash.scss';
 const personalInfo = {
   firstName: 'ANAND',
   lastName: 'ANGALIG',
-  title: 'WEB DEVELOPER',
+  jobTitle: 'WEB DEVELOPER',
   currentLocation: 'PHILA, PA',
 };
 const personalInfoJSX = Object.keys(personalInfo).map(key => {
