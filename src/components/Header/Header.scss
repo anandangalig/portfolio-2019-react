@@ -2,7 +2,6 @@
 
 .header {
   padding: 0 20px;
-  margin-bottom: 50px;
   background-color: $dark_blue;
   color: white;
 }
@@ -13,7 +12,6 @@
   grid-template-areas: 'header1 header2';
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
 }
 
 .logo {
@@ -32,6 +30,7 @@
 .menu {
   grid-area: header2;
   justify-self: end;
+  display: none;
 }
 
 .logo__accent {
@@ -39,4 +38,17 @@
   font-style: italic;
   letter-spacing: -5px;
   color: $yellow;
+}
+
+//If device width is greater than or equal to 600px, then do:
+@media only screen and (min-width: 600px) {
+  .menu {
+    display: block;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+  .header__container {
+    max-width: 1200px;
+  }
 }

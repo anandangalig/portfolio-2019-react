@@ -10,7 +10,7 @@ const Header = props => {
       <div className="header__container">
         <div className="logo">
           <NavLink exact to="/">
-            <span className="logo__accent">// </span>A. Anand
+            <span className="logo__accent">// </span>Anand
           </NavLink>
         </div>
         <div className="menu">
