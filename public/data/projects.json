@@ -3,8 +3,8 @@
     "title": "Popcorn! According to Steph Curry",
     "description": "Using D3.js library, I created a dynamic chart that visualizes 29 NBA arena rankings based on popcorn quality. The chart, as well as the axes are transformed when different options are selected from the dropdown menu.",
     "image": "screenshot_popcorn.png",
-    "link": "/projects/popcorn",
-    "link_external": false,
+    "link": "https://anandangalig-popcorn-ratings.netlify.com/",
+    "link_external": true,
     "tech_used": ["D3.js", "JavaScript/ES6", "CSS", "HTML"],
     "github_link": "https://github.com/anandangalig/d3-steph-curry-popcorn"
   },
@@ -29,8 +29,8 @@
     "title": "Pomodoro Counter",
     "description": "Pomodoro ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "image": "screenshot_pomodoro.png",
-    "link": "/pomodoro",
-    "link_external": false,
+    "link": "https://anandangalig-pomodoro.netlify.com/",
+    "link_external": true,
     "tech_used": ["React", "JavaScript/ES6", "CSS", "HTML"],
     "github_link": "https://github.com/anandangalig/pomodoro"
   },
