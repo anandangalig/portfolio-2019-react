@@ -3,28 +3,39 @@
   font-size: 12px;
   color: grey;
   font-style: italic;
+  margin-top: 6em;
+  padding-left: 1em;
 }
-.splash__item span {
-  font-family: $julius;
-  color: $dark_blue;
-  font-size: 2em;
-  font-style: normal;
+.splash__item {
+  margin-bottom: 1em;
+  padding-left: 3em;
+  span {
+    font-family: $julius;
+    color: $dark_blue;
+    font-size: 3em;
+    font-style: normal;
+    display: block;
+  }
 }
 .splash__braces {
   font-family: $julius;
   color: $dark_blue;
   font-style: italic;
-  font-size: 6em;
+  font-size: 8em;
   font-weight: bolder;
 }
-.splash__item {
-}
+
 @media only screen and (min-width: 600px) {
   .splash__text {
     font-size: 1em;
+    margin-top: 0;
   }
-  .splash__item span {
-    font-size: 6em;
+  .splash__item {
+    margin-bottom: 0;
+    span {
+      font-size: 6em;
+      display: inline;
+    }
   }
   .splash__braces {
     font-size: 8em;
