@@ -2,11 +2,6 @@
 $dark_blue: #161855;
 $dark_grey: #eaeaea;
 $grey: #f8f8f8;
-
-$green: #ccf381;
-$blue: #4831d4;
-
-$purple: #3c1a5b;
 $yellow: #fff748;
 
 // fonts:
@@ -17,7 +12,19 @@ $yellowtail: 'Yellowtail', cursive;
 $open_sans: 'Open Sans', sans-serif;
 
 // general:
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
 body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
   font: {
