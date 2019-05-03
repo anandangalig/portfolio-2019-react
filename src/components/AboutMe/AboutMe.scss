@@ -19,14 +19,14 @@
 }
 
 .about_container {
+  padding: 1em;
   display: grid;
   grid-template-areas:
     'blurb1 '
     'blurb2'
     'toolbox'
     'misc';
-  grid-column-gap: 40px;
-  grid-row-gap: 20px;
+  grid-row-gap: 2em;
   width: 100%;
   height: auto;
   span {
@@ -65,12 +65,15 @@
     grid-template-areas:
       'blurb1 blurb2'
       'toolbox misc';
+    span {
+      display: block;
+    }
   }
   .about_blurb--image {
     width: 80%;
     height: auto;
     grid-area: blurb1;
-    justify-self: end;
+    justify-self: start;
     align-self: center;
   }
   .about_blurb--text {
@@ -80,7 +83,7 @@
   }
   .about_tools {
     grid-area: toolbox;
-    justify-self: center;
+    justify-self: end;
     align-self: start;
   }
 
