@@ -28,8 +28,6 @@
 }
 
 .menu {
-  grid-area: header2;
-  justify-self: end;
   display: none;
 }
 
@@ -43,6 +41,8 @@
 //If device width is greater than or equal to 600px, then do:
 @media only screen and (min-width: 600px) {
   .menu {
+    grid-area: header2;
+    justify-self: end;
     display: block;
   }
   .header {

@@ -11,20 +11,11 @@ $archivo: 'Archivo Narrow', sans-serif;
 $yellowtail: 'Yellowtail', cursive;
 $open_sans: 'Open Sans', sans-serif;
 
-// general:
-html {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+* {
+  box-sizing: border-box;
 }
-#root {
-  height: 100%;
-  width: 100%;
-}
+
 body {
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
   padding: 0;
   margin: 0;
   font: {
