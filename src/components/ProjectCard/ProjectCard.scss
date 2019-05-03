@@ -1,38 +1,30 @@
 @import '../../assets/styles/_globals.scss';
-
-.project__card {
+.project {
   display: grid;
   grid-template-areas:
-    'img title title'
-    'img techUsed desc'
-    'img buttons buttons';
-  grid-template-rows: 100px 1fr 60px;
-  grid-template-columns: 40% 1fr 1fr;
-  margin-bottom: 45px;
-  padding: 10px;
-  height: 350px;
-}
-.project__image {
-  padding: 0 20px;
-  grid-area: img;
-  align-self: end;
-  img {
-    height: auto;
-    width: 100%;
-  }
+    'title'
+    'desc'
+    'techUsed'
+    'buttons'
+    'hr';
+  grid-template-rows: max-content max-content 1fr max-content 0.2fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1em;
 }
 .project__title {
   grid-area: title;
-  align-self: center;
+  text-align: center;
   justify-self: center;
   font-family: $julius;
   font-size: 2em;
   color: #161855;
 }
+.project__image {
+  display: none;
+}
 .project__desc {
   grid-area: desc;
-  align-self: start;
-  justify-self: center;
+  text-align: center;
 }
 .project__tech-used {
   grid-area: techUsed;
@@ -57,13 +49,17 @@
   grid-template-areas: 'button1 button2';
   grid-template-columns: 1fr 1fr;
 }
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $dark_blue, rgba(0, 0, 0, 0));
+.hr {
+  grid-area: hr;
+  margin: 2em 0;
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $dark_blue, rgba(0, 0, 0, 0));
+  }
 }
 .project__link {
-  width: 50%;
+  width: 100%;
   border: none;
   border-radius: 4px;
   color: white;
@@ -72,12 +68,6 @@ hr {
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  &:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
 }
 .project__link--github {
   grid-area: button1;
@@ -89,4 +79,63 @@ hr {
   grid-area: button2;
   justify-self: start;
   background-color: DodgerBlue;
+}
+.project__link--github {
+  grid-area: button1;
+  justify-self: end;
+  background-color: DodgerBlue;
+}
+
+.project__link--hosted {
+  grid-area: button2;
+  justify-self: start;
+  background-color: DodgerBlue;
+}
+
+@media only screen and (min-width: 600px) {
+  .project {
+    display: grid;
+    grid-template-areas:
+      'img title title'
+      'img techUsed desc'
+      'img buttons buttons'
+      'hr hr hr';
+    grid-template-rows: 100px 1fr 60px;
+    grid-template-columns: 40% 1fr 1fr;
+    margin-bottom: 45px;
+    padding: 10px;
+    height: 350px;
+  }
+  .project__image {
+    display: block;
+    padding: 0 20px;
+    grid-area: img;
+    align-self: end;
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .project__title {
+    grid-area: title;
+    align-self: center;
+    justify-self: center;
+    font-family: $julius;
+    font-size: 2em;
+    color: #161855;
+  }
+  .project__desc {
+    grid-area: desc;
+    align-self: start;
+    justify-self: center;
+  }
+  .project__link {
+    width: 50%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
 }
