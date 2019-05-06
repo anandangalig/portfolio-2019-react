@@ -25,6 +25,9 @@
 .project__desc {
   grid-area: desc;
   text-align: center;
+  p {
+    margin-top: 0;
+  }
 }
 .project__tech-used {
   grid-area: techUsed;

@@ -3,10 +3,15 @@ import './ProjectCard.scss';
 
 const ProjectCard = ({ project }) => {
   let { title, description, image, github_link, link, link_external, tech_used } = project;
+
+  const convertHtmlString = desc => {
+    return { __html: desc };
+  };
+
   return (
     <div className="project">
       <div className="project__title">{title}</div>
-      <div className="project__desc">{description}</div>
+      <div className="project__desc" dangerouslySetInnerHTML={convertHtmlString(description)} />
       <div className="project__image">
         <img alt={title} src={`/images/${image}`} />
       </div>
