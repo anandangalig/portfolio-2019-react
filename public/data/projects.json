@@ -1,16 +1,16 @@
 {
   "popcorn": {
     "title": "Popcorn! According to Steph Curry",
-    "description": "Using D3.js library, I created a dynamic chart that visualizes 29 NBA arena rankings based on popcorn quality. The chart, as well as the axes are transformed when different options are selected from the dropdown menu.",
+    "description": "<p>Using the D3.js library, I created a dynamic chart that visualizes 29 NBA arena rankings based on popcorn quality. The chart, as well as the X/Y axes are transformed when different options are selected from the dropdown menu.</p><p>Inspiration and ratings data was scraped from this <a href='https://www.nytimes.com/interactive/2019/04/12/sports/basketball/stephen-curry-warriors-popcorn.html' target='_blank'>NYT article.</a></p>",
     "image": "screenshot_popcorn.png",
     "link": "https://anandangalig-popcorn-ratings.netlify.com/",
     "link_external": true,
-    "tech_used": ["D3.js", "JavaScript/ES6", "CSS", "HTML"],
+    "tech_used": ["D3.js", "JavaScript/ES6", "CSS", "HTML", "jQuery"],
     "github_link": "https://github.com/anandangalig/d3-steph-curry-popcorn"
   },
   "portfolio": {
     "title": "Portfolio 2019",
-    "description": "Portfolio 2019 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "description": "Re-launched my portfolio site in 2019 using React and CSS Grid. Went through couple of design revisions using Sketch (see GitHub repo for screenshots). Paid particular attention to making the site mobile-first.",
     "image": "screenshot_portfolio.png",
     "link": "/",
     "link_external": false,
@@ -21,22 +21,23 @@
       "Axios",
       "JavaScript/ES6",
       "Sass/CSS",
+      "CSS Grid",
       "HTML5"
     ],
     "github_link": "https://github.com/anandangalig/portfolio-2019-react"
   },
   "pomodoro": {
     "title": "Pomodoro Counter",
-    "description": "Pomodoro ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "description": "<p>After reading 'Deep Work' by Cal Newport, I made few changes in my daily work routine. And the <a href='https://en.wikipedia.org/wiki/Pomodoro_Technique' target='_blank'>Pomodoro technique</a> was one of them: 25 minutes of focused work followed by 5 minutes of break.</p><p>They key is to keep count of the completed pomodoros to track of your progress. So, I created a small React App to do that. It has pause/resume options, and even plays sounds to alert completions.</p>",
     "image": "screenshot_pomodoro.png",
     "link": "https://anandangalig-pomodoro.netlify.com/",
     "link_external": true,
-    "tech_used": ["React", "JavaScript/ES6", "CSS", "HTML"],
+    "tech_used": ["React", "JavaScript/ES6", "CSS", "HTML", "Semantic UI"],
     "github_link": "https://github.com/anandangalig/pomodoro"
   },
   "watchlist": {
     "title": "WatchList",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "description": "<p>Proof of concept app built on Ember.js</p><p>Currently it consumes <a href='https://bestbuyapis.github.io/bby-query-builder/#/productSearch' target='_blank'>Best Buy Products API</a> and uses <a href='http://www.emailjs.com/' target='_blank'>Email.js</a> to send templated notification emails. See GitHub repo README for more info.</p>",
     "image": "screenshot_watchlist.png",
     "link": "https://watchlist-f03db.firebaseapp.com",
     "link_external": true,

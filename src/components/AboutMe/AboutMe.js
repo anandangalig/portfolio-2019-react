@@ -16,12 +16,12 @@ const AboutMe = props => {
           I’m a Philadelphia based web developer currently specializing in JavaScript and React.
         </p>
         <p>
-          I am curios, and always open to trying new things. I believe in lifelong learning, both in
-          my personal and professional life.
+          I have a curios mind, and always open to trying new things. I believe in lifelong
+          learning, both in my personal and professional life.
         </p>
         <p>
           At work, I bring professionalism and positive attitude. At home, I make chicken
-          quesedillas and drink strong ales.
+          quesadillas and drink strong ales.
         </p>
       </div>
 
@@ -42,13 +42,13 @@ const AboutMe = props => {
         <span>Fun Facts</span>
         <ul>
           <li>Was born in Mongolia</li>
+          <li>Favorite TV show: What is Jeopardy?</li>
           <li>76'ers fan</li>
           <li>Can train you in Muay Thai</li>
           <li>Partied with the Dude "Big Lebowski" one time</li>
-          <li>Sushi chef at heart</li>
           <li>Loves the NPR</li>
+          <li>Sushi chef at heart</li>
           <li>Speaks Russian</li>
-          <li>Favorite TV show: What is Jeopardy?</li>
         </ul>
       </div>
     </div>
