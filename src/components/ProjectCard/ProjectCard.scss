@@ -51,7 +51,6 @@
 }
 .hr {
   grid-area: hr;
-  margin: 2em 0;
   hr {
     border: 0;
     height: 1px;
@@ -63,10 +62,10 @@
   border: none;
   border-radius: 4px;
   color: white;
-  padding: 15px 32px;
+  padding: 1em;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1em;
   margin: 4px 2px;
 }
 .project__link--github {
@@ -97,21 +96,20 @@
     display: grid;
     grid-template-areas:
       'img title title'
-      'img techUsed desc'
-      'img buttons buttons'
+      'img desc techUsed'
+      'img buttons .'
       'hr hr hr';
-    grid-template-rows: 100px 1fr 60px;
-    grid-template-columns: 40% 1fr 1fr;
-    margin-bottom: 45px;
-    padding: 10px;
-    height: 350px;
+    grid-template-rows: 100px 1fr 60px 10px;
+    grid-template-columns: 40% 2fr 1fr;
+    margin-bottom: 2em;
   }
   .project__image {
     display: block;
-    padding: 0 20px;
+    padding: 0 2em;
     grid-area: img;
-    align-self: end;
+    align-self: center;
     img {
+      border: 1px solid $dark_grey;
       height: auto;
       width: 100%;
     }
@@ -128,14 +126,20 @@
     grid-area: desc;
     align-self: start;
     justify-self: center;
+    text-align: right;
   }
   .project__link {
-    width: 50%;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     &:hover {
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+  }
+  .hr {
+    grid-area: hr;
+  }
+  .project__tech-used {
+    justify-self: end;
   }
 }
