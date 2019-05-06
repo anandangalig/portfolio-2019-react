@@ -30,6 +30,11 @@
 .menu {
   display: none;
 }
+.menu__mobile {
+  grid-area: header2;
+  align-self: center;
+  justify-self: end;
+}
 
 .logo__accent {
   font-family: $julius;
@@ -50,5 +55,8 @@
   }
   .header__container {
     max-width: 1200px;
+  }
+  .menu__mobile {
+    display: none;
   }
 }

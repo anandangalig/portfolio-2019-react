@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import MenuDesktop from '../MenuDesktop/MenuDesktop';
-// import MenuMobile from '../MenuMobile/MenuMobile';
+import MenuMobile from '../MenuMobile/MenuMobile';
 import './Header.scss';
 
 const Header = props => {
@@ -15,7 +15,9 @@ const Header = props => {
         </div>
         <div className="menu">
           <MenuDesktop />
-          {/* <MenuMobile /> */}
+        </div>
+        <div className="menu__mobile">
+          <MenuMobile />
         </div>
       </div>
     </header>

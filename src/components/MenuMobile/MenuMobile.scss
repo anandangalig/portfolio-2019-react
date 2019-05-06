@@ -1,0 +1,47 @@
+@import '../../assets/styles/_globals.scss';
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: $dark_blue;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: end;
+  margin-top: 30px;
+  padding-right: 3em;
+}
+
+.overlay a {
+  padding-bottom: 0.5em;
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  display: block;
+  &.active::before {
+    content: '\21D2';
+    color: $yellow;
+    padding-right: 10px;
+  }
+}
+
+.overlay li {
+  list-style: none;
+}
+
+.overlay .close_btn {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  font-size: 5em;
+  color: white;
+}
