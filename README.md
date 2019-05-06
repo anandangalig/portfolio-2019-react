@@ -23,8 +23,9 @@ _Hosted on Netlify: https://anandangalig.com_
 - _JavaScript/ES6_
 - _HTML,CSS_
 - _CSS Grid_
+- _Sketch_
 
-## Design Process on Sketch
+## Design Process in Sketch
 
 ![screenshot of desktop mockup](public/images/sketch_process_desktop.png)
 

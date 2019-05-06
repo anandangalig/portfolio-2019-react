@@ -16,7 +16,7 @@ const AboutMe = props => {
           I’m a Philadelphia based web developer currently specializing in JavaScript and React.
         </p>
         <p>
-          I have a curios mind, and always open to trying new things. I believe in lifelong
+          I have a curious mind, and always open to trying new things. I believe in lifelong
           learning, both in my personal and professional life.
         </p>
         <p>
