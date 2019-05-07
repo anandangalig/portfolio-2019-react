@@ -13,10 +13,10 @@ const AboutMe = props => {
       <div className="about about_blurb--text">
         <span>Hey, I’m Anand.</span>
         <p>
-          I’m a Philadelphia based web developer currently specializing in JavaScript and React.
+          I’m a Philadelphia-based web developer currently specializing in JavaScript and React.
         </p>
         <p>
-          I have a curious mind, and always open to trying new things. I believe in lifelong
+          I have a curious mind, and I am always open to trying new things. I believe in lifelong
           learning, both in my personal and professional life.
         </p>
         <p>
@@ -45,8 +45,8 @@ const AboutMe = props => {
           <li>Favorite TV show: What is Jeopardy?</li>
           <li>76'ers fan</li>
           <li>Can train you in Muay Thai</li>
-          <li>Partied with the Dude "Big Lebowski" one time</li>
-          <li>Loves the NPR</li>
+          <li>Partied with the Dude "Big Lebowski" once</li>
+          <li>Loves NPR</li>
           <li>Sushi chef at heart</li>
           <li>Speaks Russian</li>
         </ul>
