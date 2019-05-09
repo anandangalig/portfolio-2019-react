@@ -1,5 +1,20 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import './ProjectCard.scss';
+
+const sendAnalyticsEvent = (projectTitle, destination) => {
+  if (destination === 'github') {
+    ReactGA.event({
+      category: 'Project',
+      action: `${projectTitle} GitHub repo visited`,
+    });
+  } else if (destination === 'hosted') {
+    ReactGA.event({
+      category: 'Project',
+      action: `${projectTitle} hosted project visited`,
+    });
+  }
+};
 
 const ProjectCard = ({ project }) => {
   let { title, description, image, github_link, link, link_external, tech_used } = project;
@@ -28,6 +43,9 @@ const ProjectCard = ({ project }) => {
           href={github_link}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+            sendAnalyticsEvent(title, 'github');
+          }}
         >
           GitHub
         </a>
@@ -36,6 +54,9 @@ const ProjectCard = ({ project }) => {
           href={link}
           target={link_external ? '_blank' : '_self'}
           rel="noopener noreferrer"
+          onClick={() => {
+            sendAnalyticsEvent(title, 'hosted');
+          }}
         >
           View Project
         </a>
