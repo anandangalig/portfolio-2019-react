@@ -40,8 +40,9 @@
 
 .overlay .close_btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  padding: 0;
+  top: 0.5em;
+  right: 0.5em;
   font-size: 5em;
   color: white;
   background-color: $dark_blue;
