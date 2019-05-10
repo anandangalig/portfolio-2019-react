@@ -5,6 +5,7 @@ import './ProjectsLists.scss';
 
 const ProjectsLists = props => {
   const [projects, setProjects] = useState({});
+
   useEffect(() => {
     axios
       .get('./data/projects.json')
@@ -16,6 +17,10 @@ const ProjectsLists = props => {
         console.error('Axios GET failed!', error);
       });
   }, []);
+
+  useEffect(() => {
+    document.title = 'Anand Angalig | Projects';
+  });
 
   const renderProjectCards = () => {
     return Object.entries(projects).map(function([name, data]) {

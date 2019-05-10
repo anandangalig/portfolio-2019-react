@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HomepageSplash.scss';
 
 const personalInfo = {
@@ -16,6 +16,10 @@ const personalInfoJSX = Object.keys(personalInfo).map(key => {
 });
 
 const HomepageSplash = props => {
+  useEffect(() => {
+    document.title = 'Anand Angalig | Homepage';
+  });
+
   return (
     <div className="splash__text">
       <span className="splash__braces">{'{'}</span>

@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AboutMe.scss';
 
 const AboutMe = props => {
+  useEffect(() => {
+    document.title = 'Anand Angalig | About me';
+  });
+
   return (
     <div className="about about_container">
       <img
@@ -16,12 +20,16 @@ const AboutMe = props => {
           I’m a Philadelphia-based web developer currently specializing in JavaScript and React.
         </p>
         <p>
-          I have a curious mind, and I am always open to trying new things. I believe in lifelong
-          learning, both in my personal and professional life.
+          I have a curious mind and I am always open to trying new things - whether it is a new
+          cuisine or a new NPM package. I believe in lifelong learning, both in my personal and
+          professional life.
         </p>
         <p>
-          At work, I bring professionalism and positive attitude. At home, I make chicken
-          quesadillas and drink strong ales.
+          At work, I bring professionalism, excellent communication skills, and a positive attitude.
+        </p>
+        <p>
+          In my free time I enjoy reading good books and cooking while listening to my favorite
+          podcasts.
         </p>
       </div>
 
