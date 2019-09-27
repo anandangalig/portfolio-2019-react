@@ -44,6 +44,7 @@ const AboutMe = props => {
           <li>Drupal, WordPress</li>
           <li>Linux environment</li>
           <li>MySQL</li>
+          <li>GraphQL</li>
         </ul>
       </div>
       <div className="about about_misc">
@@ -51,8 +52,13 @@ const AboutMe = props => {
         <ul>
           <li>Was born in Mongolia</li>
           <li>Favorite TV show: What is Jeopardy?</li>
-          <li>76'ers fan</li>
-          <li>Can train you in Muay Thai</li>
+          <li>Sixers fan</li>
+          <li>
+            Trains at{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://www.heavyhittersphilly.com/">
+              Heavy Hitters Muay Thai
+            </a>
+          </li>
           <li>Partied with the Dude "Big Lebowski" once</li>
           <li>Loves NPR</li>
           <li>Sushi chef at heart</li>
