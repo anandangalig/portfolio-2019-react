@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './AboutMe.scss';
 
-const AboutMe = props => {
+const AboutMe = (props) => {
   useEffect(() => {
     document.title = 'Anand Angalig | About me';
   });
@@ -36,14 +36,14 @@ const AboutMe = props => {
       <div className="about about_tools">
         <span>Toolbox</span>
         <ul>
-          <li>JavaScript/ES6</li>
+          <li>JavaScript/Node.js</li>
+          <li>PHP, dash of Golang</li>
           <li>React + Redux</li>
-          <li>D3.js</li>
           <li>CSS/Sass</li>
-          <li>PHP</li>
           <li>Drupal, WordPress</li>
           <li>Linux environment</li>
-          <li>MySQL</li>
+          <li>MySQL, DynamoDB, and MongoDB</li>
+          <li>AWS + Serverless Framework</li>
           <li>GraphQL</li>
         </ul>
       </div>
@@ -52,7 +52,7 @@ const AboutMe = props => {
         <ul>
           <li>Was born in Mongolia</li>
           <li>Favorite TV show: What is Jeopardy?</li>
-          <li>Sixers fan</li>
+          <li>Sixers fan. "Trust the Process!"</li>
           <li>
             Trains at{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://www.heavyhittersphilly.com/">
@@ -62,7 +62,7 @@ const AboutMe = props => {
           <li>Partied with the Dude "Big Lebowski" once</li>
           <li>Loves NPR</li>
           <li>Sushi chef at heart</li>
-          <li>Speaks Russian</li>
+          <li>Speaks Russian and Mongolian</li>
         </ul>
       </div>
     </div>

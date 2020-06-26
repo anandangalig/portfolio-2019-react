@@ -1,4 +1,23 @@
 {
+  "pushPirates": {
+    "title": "Push Pirates Mobile App",
+    "description": "<p>Push Pirates is a goal-oriented habit tracker that is built in collaboration with friends as a side project.</p><p>My contributions are building the API (database setup, user login, password reset, and all CRUD functionalities), creating the wireframes, and constructing several UI features and components in React Native.</p>",
+    "image": "screenshot_push_pirates.png",
+    "link": "https://apps.apple.com/us/app/push-pirates/id1505268531#?platform=iphone",
+    "link_external": true,
+    "tech_used": [
+      "React Native",
+      "Expo",
+      "Express.js",
+      "MongoDB Atlas",
+      "AWS Lambda",
+      "Heroku",
+      "JWT",
+      "Node.js",
+      "GraphQL"
+    ],
+    "github_link": "https://github.com/anandangalig/push-api"
+  },
   "popcorn": {
     "title": "Popcorn! According to Steph Curry",
     "description": "<p>Using the D3.js library, I created a dynamic chart that visualizes 29 NBA arena rankings based on popcorn quality. The chart, as well as the X/Y axes are transformed when different options are selected from the dropdown menu.</p><p>Inspiration and ratings data was scraped from this <a href='https://www.nytimes.com/interactive/2019/04/12/sports/basketball/stephen-curry-warriors-popcorn.html' target='_blank'>NYT article.</a></p>",
