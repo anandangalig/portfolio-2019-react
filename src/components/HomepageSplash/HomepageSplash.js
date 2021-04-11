@@ -7,18 +7,18 @@ const personalInfo = {
   jobTitle: 'WEB DEVELOPER',
   currentLocation: 'PHILA, PA',
 };
-const personalInfoJSX = Object.keys(personalInfo).map(key => {
+const personalInfoJSX = Object.keys(personalInfo).map((key) => {
   return (
     <div key={key} className="splash__item">
-      {key}: <span>"{personalInfo[key]}",</span>
+      {key}: <span>'{personalInfo[key]}',</span>
     </div>
   );
 });
 
-const HomepageSplash = props => {
+const HomepageSplash = () => {
   useEffect(() => {
     document.title = 'Anand Angalig | Homepage';
-  });
+  }, []);
 
   return (
     <div className="splash__text">

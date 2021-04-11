@@ -3,27 +3,23 @@ import axios from 'axios';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './ProjectsLists.scss';
 
-const ProjectsLists = props => {
+const ProjectsLists = (props) => {
   const [projects, setProjects] = useState({});
 
   useEffect(() => {
+    document.title = 'Anand Angalig | Projects';
     axios
       .get('./data/projects.json')
-      .then(res => {
-        const projects = res.data;
-        setProjects(projects);
+      .then((res) => {
+        setProjects(res.data);
       })
-      .catch(error => {
+      .catch((error) => {
         console.error('Axios GET failed!', error);
       });
   }, []);
 
-  useEffect(() => {
-    document.title = 'Anand Angalig | Projects';
-  });
-
   const renderProjectCards = () => {
-    return Object.entries(projects).map(function([name, data]) {
+    return Object.entries(projects).map(function ([name, data]) {
       return <ProjectCard key={name} project={data} />;
     });
   };

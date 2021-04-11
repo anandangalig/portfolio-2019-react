@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import './AboutMe.scss';
 
-const AboutMe = (props) => {
+const AboutMe = () => {
   useEffect(() => {
     document.title = 'Anand Angalig | About me';
-  });
+  }, []);
 
   return (
     <div className="about about_container">
@@ -15,9 +15,9 @@ const AboutMe = (props) => {
       />
 
       <div className="about about_blurb--text">
-        <span>Hey, I’m Anand.</span>
+        <span>Hey, I'm Anand.</span>
         <p>
-          I’m a Philadelphia-based web developer currently specializing in JavaScript and React.
+          I'm a Philadelphia-based web developer currently specializing in JavaScript and React.
         </p>
         <p>
           I have a curious mind and I am always open to trying new things - whether it is a new
@@ -37,13 +37,12 @@ const AboutMe = (props) => {
         <span>Toolbox</span>
         <ul>
           <li>JavaScript/Node.js</li>
-          <li>PHP, dash of Golang</li>
+          <li>Some PHP</li>
           <li>React + Redux</li>
           <li>CSS/Sass</li>
           <li>Drupal, WordPress</li>
-          <li>Linux environment</li>
-          <li>MySQL, DynamoDB, and MongoDB</li>
-          <li>AWS + Serverless Framework</li>
+          <li>MySQL, MongoDB</li>
+          <li>AWS Services</li>
           <li>GraphQL</li>
         </ul>
       </div>
@@ -52,16 +51,10 @@ const AboutMe = (props) => {
         <ul>
           <li>Was born in Mongolia</li>
           <li>Favorite TV show: What is Jeopardy?</li>
-          <li>Sixers fan. "Trust the Process!"</li>
-          <li>
-            Trains at{' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://www.heavyhittersphilly.com/">
-              Heavy Hitters Muay Thai
-            </a>
-          </li>
-          <li>Partied with the Dude "Big Lebowski" once</li>
+          <li>Sixers fan</li>
           <li>Loves NPR</li>
-          <li>Sushi chef at heart</li>
+          <li>Enjoyes cooking</li>
+          <li>Practices Muay Thai and Boxing</li>
           <li>Speaks Russian and Mongolian</li>
         </ul>
       </div>
