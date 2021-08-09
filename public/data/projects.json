@@ -1,7 +1,7 @@
 {
   "quirkyQuotes": {
     "title": "Quirky Quotes Chrome Extension",
-    "description": "<p>Ever since I learned Chrome extensions are simply written in JS, CSS, and HTML, I wanted to give it a shot.</p><p>After a quick brainstorming session with a firend, I came up with Quirky Quotes: A Chrome extension that brings weird, funky, and off-beat quotes with every new tab you open.</p><p>The best part is checking the dashboard and find out people from Australia, Hong Kong, and Saudi Arabia found it somehow, installed it, and using it!!</p>",
+    "description": "<p>Ever since I learned Chrome extensions are simply written in JS, CSS, and HTML, I wanted to give it a shot.</p><p>After a quick brainstorming session with a friend, I came up with Quirky Quotes: a Chrome extension that brings weird, funky, and off-beat quotes with every new tab you open.</p><p>The best part is checking the dashboard to find out people from Australia, Hong Kong, and Saudi Arabia found it somehow, installed it, and using it!!</p>",
     "image": "screenshot_quirky_quotes.png",
     "link": "https://chrome.google.com/webstore/detail/quirky-quotes-extension/knlmjmijbfgjdmgodonnbolecpamidia",
     "link_external": true,
