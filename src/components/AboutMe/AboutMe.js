@@ -53,7 +53,7 @@ const AboutMe = () => {
           <li>Favorite TV show: What is Jeopardy?</li>
           <li>Sixers fan</li>
           <li>Loves NPR</li>
-          <li>Enjoyes cooking</li>
+          <li>Enjoys cooking</li>
           <li>Practices Muay Thai and Boxing</li>
           <li>Speaks Russian and Mongolian</li>
         </ul>
